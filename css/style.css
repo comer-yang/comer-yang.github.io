@@ -1,0 +1,65 @@
+@charset = "UTF-8";
+*{padding:0px;margin:0px;}
+body{font-size:12px;font-family:"微软雅黑";}
+img{border:none;}
+a{color:#000;text-decoration:none;}
+ul,ol,dl{list-style:none;}
+input{outline:none;}
+#header,#nav,#banner,#main,#f-nav,#footer{width:1000px;margin:0 auto;}
+#header{height:100px;}
+#header .logo{float:left;margin:40px 0 0 20px;}
+#header .logo a{width:244px;height:21px;background:url(../images/logo.jpg) no-repeat;display:block;}
+#header .logo a span{display:none;}
+#header .search{float:right;width:225px;height:26px;background:#f1f1f1;border:1px solid #e5e5e5;margin:40px 20px 0;}
+#header .search .search_t{border:none;background:#f1f1f1;width:190px;font-size:12px;padding-left:5px;margin-top:8px;}
+#nav{background:#2d2d2d;height:60px;}
+#nav ul{margin-left:30px;}
+#nav ul li{float:left;border-right:1px solid #4a4a4a;}
+#nav ul li a{padding:0 30px;line-height:60px;color:#fff;font-size:14px;display:block;}
+#nav ul li a:hover{background:#d62626;}
+#nav ul li:last-child{border:none;}
+#banner ol li a{width:1000px;height:463px;background:url(../images/banner.jpg) no-repeat;display:block;}
+#main .main_01 .news1,#main .main_01 .news2,#main .main_01 .news3{height:242px;overflow:hidden;}
+#main .main_01 .news1{width:450px;margin-left:20px;float:left;}
+#main .main_01 .news1 .news1_t{height:80px;line-height:80px;}
+#main .main_01 .news1 .news1_t h3,#main .main_01 .news2 .news1_t h3,#main .main_01 .news3 .news1_t h3{font-size:18px;font-weight:normal;float:left;color:#1c1c1c;}
+#main .main_01 .news1 .news1_t a{float:right;background:url(../images/more.jpg) no-repeat;margin-top:22px;display:block;width:27px;height:28px;}
+#main .main_01 .news1 ul li{background:url(../images/list_d.jpg) left center no-repeat;padding-left:10px;line-height:26px;}
+#main .main_01 .news1 ul li a{color:#555;}
+#main .main_01 .news1 ul li a:hover{text-decoration:underline;}
+#main .main_01 .news1 ul li span{float:right;color:#8a8a8a;}
+#main .main_01 .news2{background:#f1f1f1;padding:25px 22px;width:196px;float:left;height:192px;margin-left:30px;margin-right:1px;}
+#main .main_01 .news2 .news1_t h3,#main .main_01 .news3 .news1_t h3{margin-bottom:28px;}
+#main .main_01 .news2 p{color:#4f4f4f;font-size:12px;}
+#main .main_01 .news2 p:nth-child(2){font-size:11px;}
+#main .main_01 .news2 span{color:#969696;font-size:11px;}
+#main .main_01 .news2 .news2_m{clear:both;}
+#main .main_01 .news2 .news2_m p,#main .main_01 .news2 .news2_m span{line-height:25px;}
+#main .main_01 .news3{background:#fbfbfb url(../images/pot.jpg) 165px 120px no-repeat;width:215px;height:192px;padding:25px 22px;}
+#main .main_01 .news3 .news2_m{clear:both;}
+#main .main_01 .news3 .news2_m p{color:#4f4f4f;font-size:12px;line-height:25px;}
+#main .main_01 .news3 .news2_m a{border-radius:5px;background:#aeaeae;padding:7px 14px;color:#fff;font-size:12px;margin-top:56px;display:inline-block;}
+
+#main .main_02{margin:25px 0px 0 20px;}
+#main .main_02 .main_02_t{margin-bottom:20px;overflow:hidden;}
+#main .main_02 .main_02_t h3{font-size:18px;font-weight:normal;float:left;color:#1c1c1c;}
+#main .main_02 .main_02_t ul{float:right}
+#main .main_02 .main_02_t ul li{float:left;margin-left:10px;}
+#main .main_02 .main_02_m{margin-bottom:50px;height:200px;overflow:hidden; clear:both;margin-top:16px;}
+#main .main_02 .main_02_m dl{width:211px;float:left;margin-right:44px;}
+#f-nav{height:250px;background:#e5e5e5;}
+#f-nav .cpzx{margin-top:30px;float:left;}
+#f-nav .cpzx1{width:460px;}
+#f-nav .cpzx2{width:255px;}
+#f-nav .cpzx3{width:280px;}
+#f-nav .cpzx .cpzx_t{border-bottom:1px solid #c1c1c1;color:#5f5f5f;font-size:14px;margin:0 22px;padding:0 20px 12px 15px;}
+#f-nav .cpzx .cpzx_m{margin-top:20px;margin-left:44px;}
+#f-nav .cpzx .cpzx_m ul{float:left;}
+#f-nav .cpzx .cpzx_m ul li{margin-right:60px;background:url(../images/list_f.jpg) left center no-repeat;padding-left:10px;}
+#f-nav .cpzx .cpzx_m ul li a{color:#5f5f5f;font-size:12px;line-height:22px;}
+#footer {height:68px;line-height:68px;}
+#footer .footer_l{float:left;}
+#footer .footer_l a{font-size:12px;color:#878787;padding:0 5px;}
+#footer .footer_r{float:right;font-size:12px;color:#878787;}
+
+
